@@ -1,4 +1,4 @@
-CREATE TABLE users (
+CREATE TABLE IF NOT exists users (
     user_id INT AUTOINCREMENT PRIMARY KEY,
     username VARCHAR(100) NOT NULL,
     email VARCHAR(255) NOT NULL,
